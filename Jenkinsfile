@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('gitcheckout') {
             steps {
-            sh 'echo "hello world"'
+            sh 'hadolint Dockerfile'
             }
         }
         
