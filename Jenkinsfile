@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('gitcheckout') {
+        stage('scropt') {
             steps {
             sh 'hadolint Dockerfile'
             }
