@@ -1,2 +1,2 @@
 # syntax=docker/dockerfile:1
-FROM nginx
+FROM nginx:latest
