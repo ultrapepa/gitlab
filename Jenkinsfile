@@ -1,5 +1,5 @@
 pipeline {
-    agent mainslave
+    agent {label 'mainslave'}
 
     stages {
         stage('scropt') {
